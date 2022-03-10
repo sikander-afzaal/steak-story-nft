@@ -56,7 +56,7 @@
 }
 @media screen and (max-width: 994px) {
   .hero {
-    margin-top: calc(58px + 1.5rem);
+    margin-top: 71px;
   }
 }
 @media screen and (max-width: 816px) {
