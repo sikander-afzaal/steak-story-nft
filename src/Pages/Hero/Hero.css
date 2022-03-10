@@ -1,11 +1,15 @@
 .hero {
-  margin-top: calc(152px + 0.8rem);
-  min-height: calc(100vh - 152px);
+  margin-top: 87px;
+  min-height: 100vh;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 2rem;
+  background-image: url("../../Assets/bg-2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 .hero-head {
   display: flex;
@@ -44,6 +48,11 @@
   padding: 10px;
   font-size: 1.5rem;
   border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+.hero svg:hover {
+  transform: scale(1.2);
 }
 @media screen and (max-width: 994px) {
   .hero {

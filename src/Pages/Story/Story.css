@@ -4,11 +4,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("../../Assets/bg-1.png");
-  background-size: 100% 100%;
+  background-image: url("../../Assets/bg-2.png");
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 85vh;
+  margin-top: -4px;
 }
 .story {
   max-width: 950px;
@@ -59,12 +59,6 @@
 @media screen and (max-width: 972px) {
   .story {
     max-width: 95%;
-  }
-}
-@media screen and (max-width: 728px) {
-  .story-cont {
-    background-image: url("../../Assets/bg-2.png");
-    background-size: cover;
   }
 }
 @media screen and (max-width: 548px) {
