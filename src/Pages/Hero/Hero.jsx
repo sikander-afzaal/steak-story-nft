@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import img from "../../Assets/hero_img.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Fade from "react-reveal/Fade";
 import {
   faDiscord,
   faInstagram,
@@ -10,15 +11,22 @@ import {
 function Hero() {
   return (
     <div className="hero">
-      <h1>
-        777 unique explorations of <br /> well traveled Mindfolk.
-      </h1>
-      <img src={img} alt="..." />
-      <div className="social-div">
-        <FontAwesomeIcon icon={faTwitter} />
-        <FontAwesomeIcon icon={faInstagram} />
-        <FontAwesomeIcon icon={faDiscord} />
+      <div className="hero-head">
+        <Fade duration={1000} top big cascade>
+          777 unique explorations of
+        </Fade>
+        <Fade top big cascade>
+          well traveled Mindfolk.
+        </Fade>
       </div>
+      <Fade delay={1000} bottom big>
+        <img src={img} alt="..." />
+        <div className="social-div">
+          <FontAwesomeIcon icon={faTwitter} />
+          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faDiscord} />
+        </div>
+      </Fade>
     </div>
   );
 }

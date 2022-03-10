@@ -7,7 +7,7 @@
   flex-direction: column;
   gap: 2rem;
 }
-.hero h1 {
+.hero span {
   background-image: linear-gradient(152deg, #0a3e54, #497078);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -35,17 +35,17 @@
   border-radius: 10px;
 }
 @media screen and (max-width: 690px) {
-  .hero h1 {
+  .hero span {
     font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 485px) {
-  .hero h1 {
+  .hero span {
     font-size: 2rem;
   }
 }
 @media screen and (max-width: 420px) {
-  .hero h1 {
+  .hero span {
     font-size: 1.8rem;
   }
   .hero img {
