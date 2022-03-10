@@ -1,12 +1,19 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import "./Story.css";
+import heading from "../../Assets/headings/heading1.png";
+import headingMob from "../../Assets/headings/mobile-heading1.png";
 function Story() {
   return (
     <div className="story-cont">
-      <Fade bottom>
+      <Fade left>
         <div className="story">
-          <h1>SOLSTEAKS Story</h1>
+          {window.innerWidth <= 600 ? (
+            <img className="heading" src={headingMob} alt="" />
+          ) : (
+            <img className="heading" src={heading} alt="" />
+          )}
+
           <div className="story-div">
             <p>
               Coming to you from the depths of Solana is a whole new world
