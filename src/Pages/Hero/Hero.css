@@ -7,7 +7,7 @@
   flex-direction: column;
   gap: 2rem;
   background-image: url("../../Assets/bg-2.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
 }
@@ -75,8 +75,9 @@
   }
   .hero {
     min-height: auto;
-    margin-bottom: 3rem;
+    padding: 5rem 0rem;
   }
+
   .hero img {
     max-width: 85%;
     width: 90%;
