@@ -19,6 +19,7 @@
 .logo-text {
   font-size: 2rem;
   color: black;
+  font-weight: bolder;
 }
 .navbar-wrapper.scrolled {
   background-color: white;
