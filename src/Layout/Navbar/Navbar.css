@@ -16,7 +16,10 @@
   width: 120px;
   border-radius: 50%;
 }
-
+.logo-text {
+  font-size: 2rem;
+  color: black;
+}
 .navbar-wrapper.scrolled {
   background-color: white;
   box-shadow: 10px 0 10px rgba(0, 0, 0, 0.4);
@@ -55,6 +58,8 @@
 .nav-link {
   text-decoration: none;
   color: #04060f;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 .nav-link:not(:last-child) {
   margin-right: 36px;
@@ -66,9 +71,10 @@
   background: #272722;
   border-radius: 12px;
   display: flex;
-  font-weight: 500;
   justify-content: center;
   color: #04060f;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
   align-items: center;
   font-size: 1.2rem;
   text-decoration: none;

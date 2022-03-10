@@ -1,14 +1,25 @@
 .hero {
-  margin-top: calc(152px + 2rem);
-  min-height: auto;
+  margin-top: calc(152px + 0.8rem);
+  min-height: calc(100vh - 152px);
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   gap: 2rem;
 }
+.hero-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .hero span {
-  background-image: linear-gradient(152deg, #0a3e54, #497078);
+  /* background-image: linear-gradient(152deg, #0a3e54, #497078); */
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.865983893557423) 28%,
+    rgba(255, 52, 52, 0.8855917366946778) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3.5rem;
@@ -34,19 +45,28 @@
   font-size: 1.5rem;
   border-radius: 10px;
 }
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 994px) {
+  .hero {
+    margin-top: calc(58px + 1.5rem);
+  }
+}
+@media screen and (max-width: 816px) {
   .hero span {
     font-size: 2.5rem;
   }
 }
-@media screen and (max-width: 485px) {
+@media screen and (max-width: 585px) {
   .hero span {
     font-size: 2rem;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 470px) {
   .hero span {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+  }
+  .hero {
+    min-height: auto;
+    margin-bottom: 3rem;
   }
   .hero img {
     max-width: 85%;

@@ -8,11 +8,9 @@ function Logo() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        gap: "15px",
       }}
     >
-      <img className="h_logo" src={LogoImg} alt="..." />
-      <p style={{ color: "black" }}>SOLSTEAKS</p>
+      <p className="logo-text">SOLSTEAKS</p>
     </div>
   );
 }
