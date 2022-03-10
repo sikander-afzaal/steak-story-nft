@@ -46,7 +46,12 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  list-style-image: url("../../Assets/star-solid.png");
+  /* list-style: #980000; */
   gap: 15px;
+}
+.story-div li::marker {
+  color: red;
 }
 .story-div p {
   font-weight: 400;
