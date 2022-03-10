@@ -1,0 +1,38 @@
+.story {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: hsla(0, 0%, 100%, 0.14);
+  padding: 24px;
+  gap: 20px;
+  padding-bottom: 1.5rem;
+}
+.story h1 {
+  background-image: linear-gradient(152deg, #0a3e54, #497078);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+.story-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+}
+.story-div p {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.story-div p strong {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+@media screen and (max-width: 464px) {
+  .story h1 {
+    font-size: 2.5rem;
+  }
+}
