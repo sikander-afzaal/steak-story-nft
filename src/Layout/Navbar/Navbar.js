@@ -30,7 +30,7 @@ function Navbar() {
       <div className="container-wrapper">
         <div className="navbar">
           <div className="navbar-left">
-            <a href="#" style={{ width: "200px", textDecoration: "none" }}>
+            <a href="#">
               <Logo />
             </a>
           </div>

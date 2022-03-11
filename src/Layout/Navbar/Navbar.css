@@ -13,14 +13,9 @@
   margin: 0 auto;
 }
 .h_logo {
-  width: 120px;
-  border-radius: 50%;
+  width: 85px;
 }
-.logo-text {
-  font-size: 2rem;
-  color: black;
-  font-weight: bolder;
-}
+
 .navbar-wrapper.scrolled {
   background-color: white;
   box-shadow: 10px 0 10px rgba(0, 0, 0, 0.4);

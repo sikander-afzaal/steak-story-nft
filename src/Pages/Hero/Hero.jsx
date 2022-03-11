@@ -19,7 +19,7 @@ function Hero() {
       <div className="center-hero">
         <div className="hero-head">
           <Fade duration={1000} top big cascade>
-            3333 unique SolSteaks
+            3,333 gamified unique SolSteaks
           </Fade>
           <Fade top big cascade>
             for true foodies
@@ -33,11 +33,6 @@ function Hero() {
             <FontAwesomeIcon icon={faDiscord} />
           </div>
         </Fade>
-      </div>
-      <div className="line-div">
-        <span className="color-lines line4"></span>
-        <span className="color-lines line5"></span>
-        <span className="color-lines line6"></span>
       </div>
     </div>
   );

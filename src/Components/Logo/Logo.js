@@ -1,16 +1,10 @@
 import React from "react";
-import LogoImg from "../../Assets/Logo.jpg";
+import LogoImg from "../../Assets/logo.PNG";
 
 function Logo() {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <p className="logo-text">SOLSTEAKS</p>
+    <div>
+      <img src={LogoImg} className="h_logo" alt="" />
     </div>
   );
 }
