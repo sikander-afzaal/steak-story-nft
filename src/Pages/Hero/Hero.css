@@ -58,12 +58,12 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 400;
   text-align: center;
 }
 .hero img {
-  max-width: 700px;
+  max-width: 790px;
   object-fit: contain;
   border: 5px solid #4b2f00;
   border-radius: 25px;
