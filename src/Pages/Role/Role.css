@@ -99,6 +99,11 @@
     height: max-content;
   }
 }
+@media screen and (max-width: 808px) {
+  .role-h1 {
+    font-size: 1.3rem;
+  }
+}
 @media screen and (max-width: 500px) {
   .modal p {
     font-size: 1.1rem;
@@ -108,6 +113,9 @@
   }
   .role {
     padding: 0rem;
+  }
+  .role-h1 {
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 428px) {
