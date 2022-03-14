@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 function Hero() {
   return (
-    <div className="hero">
+    <div id="home" className="hero">
       <div className="line-div">
         <span className="color-lines line1"></span>
         <span className="color-lines line2"></span>

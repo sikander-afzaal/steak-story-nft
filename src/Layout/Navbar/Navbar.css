@@ -83,7 +83,7 @@
   height: 18px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1062px) {
   .hamburger {
     display: block;
     cursor: pointer;

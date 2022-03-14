@@ -11,3 +11,6 @@
   font-family: "Syne Mono", monospace;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}

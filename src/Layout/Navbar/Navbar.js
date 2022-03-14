@@ -48,32 +48,48 @@ function Navbar() {
                 alt="..."
               />
               <a
-                href="#hero"
+                href="#home"
                 className="nav-link montserrat"
                 onClick={() => setShow(false)}
               >
                 Home
               </a>
               <a
-                href="#about"
+                href="#story"
                 offset={80}
                 className="nav-link montserrat"
                 onClick={() => setShow(false)}
               >
-                About
+                Story
               </a>
               <a
-                href="#roadmap"
+                href="#roles"
                 className="nav-link montserrat"
                 onClick={() => setShow(false)}
               >
-                Road Map
+                Roles
               </a>
               <a
-                href="#team"
+                href="#util"
                 className="nav-link montserrat"
                 onClick={() => setShow(false)}
                 offset={-100}
+              >
+                Utility
+              </a>
+              <a
+                href="#faq"
+                offset={-100}
+                className="nav-link montserrat"
+                onClick={() => setShow(false)}
+              >
+                Roadmap
+              </a>
+              <a
+                href="#faq"
+                offset={-100}
+                className="nav-link montserrat"
+                onClick={() => setShow(false)}
               >
                 Team
               </a>

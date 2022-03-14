@@ -2,7 +2,7 @@ import React from "react";
 import "./Utility.css";
 function Utility() {
   return (
-    <div className="story-cont">
+    <div id="util" className="story-cont">
       <div className="util">
         <h1>Sol Steaks Utility</h1>
         <div className="cards-div">
