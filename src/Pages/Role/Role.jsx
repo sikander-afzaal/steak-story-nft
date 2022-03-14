@@ -32,7 +32,7 @@ function Role() {
     console.log(modal.getClientRects());
   };
   return (
-    <div className="role-cont">
+    <div id="roles" className="role-cont">
       <div className={`modal ${openModal ? "open-modal" : ""}`}>
         <FontAwesomeIcon
           onClick={() => {
