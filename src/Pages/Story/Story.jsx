@@ -17,41 +17,28 @@ function Story() {
           <ul className="story-div">
             <li>
               Coming to you from the depths of Solana is a whole new world
-              invented for <strong>all steak lovers - SolSteaks!</strong>
+              invented for all steak lovers - SolSteaks!
             </li>
             <li>
-              With a collection of{" "}
-              <strong>3,333 gamified unique SolSteaks NFTs</strong> with a
+              With a collection of 3,333 gamified unique SolSteaks NFTs with a
               unique vintage-style art, there is something here for everyone who
               has ever ordered it rare - and liked it.
             </li>
             <li>
               SolSteaks owners enjoy all the good things in life like a decent
               meat cut and a self-generating income - steak dribbles - and this
-              has inspired us to create a SolSteaks brand{" "}
-              <strong>
-                bringing together a global community of like-minded all foodies
-                and tokenomics lovers.
-              </strong>
+              has inspired us to create a SolSteaks brand bringing together a
+              global community of like-minded all foodies and tokenomics lovers.
             </li>
             <li>
-              Can you imagine you are chilling on a beach with your SolSteaks
-              community, eating steak while you steak your steak NFT? Well yes,
-              this is our vision!
+              Each NFT will give you one of the essential roles within the
+              SolSteaks House ecosystem. The more rare your role is, the more
+              $WAGYU daily it brings!
             </li>
             <li>
-              Each NFT will give you one of the{" "}
-              <strong>
-                essential roles within the SolSteaks House ecosystem.
-              </strong>{" "}
-              The more rare your role is, the more <strong>$WAGYU</strong> daily
-              it brings!
-            </li>
-            <li>
-              Owners of SolSteaks NFT will also enjoy{" "}
-              <strong>in-real life benefits;</strong> as discounts at selected
-              SolSteaks Houses, and exclusive access to in-real life SolSteaks
-              meetups.
+              Owners of SolSteaks NFT will also enjoy in-real life benefits; as
+              discounts at selected SolSteaks Houses, and exclusive access to
+              in-real life SolSteaks meetups.
             </li>
           </ul>
         </div>
