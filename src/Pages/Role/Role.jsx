@@ -28,6 +28,8 @@ function Role() {
     setImg(head);
     setText(text);
     setImgMob(mobHead);
+    const modal = document.querySelector(".modal");
+    console.log(modal.getClientRects());
   };
   return (
     <div className="role-cont">
