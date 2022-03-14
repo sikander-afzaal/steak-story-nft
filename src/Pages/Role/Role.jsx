@@ -79,6 +79,7 @@ function Role() {
           alt=""
           className="role-img"
         />
+        <h1 className="role-h1">Click on Role to find out more</h1>
         <img
           onClick={() => {
             openModalFunc(
