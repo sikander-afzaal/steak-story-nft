@@ -76,7 +76,7 @@
   align-items: center;
   gap: 20px;
 }
-.hero svg {
+.social-div svg {
   color: white;
   background-color: #d9c58a;
   padding: 10px;
@@ -85,8 +85,25 @@
   cursor: pointer;
   transition: all 0.25s ease-in-out;
 }
-.hero svg:hover {
+.social-div svg:hover,
+.mint:hover {
   transform: scale(1.2);
+}
+.hero-bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.mint {
+  padding: 10px 45px;
+  color: white;
+  background-color: #d9c58a;
+  border: 2px solid #4b2f00;
+  font-size: 1.6rem;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
 }
 @media screen and (max-width: 1062px) {
   .hero {

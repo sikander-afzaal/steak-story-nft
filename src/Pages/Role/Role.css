@@ -74,6 +74,18 @@
   padding-left: 1rem;
   font-size: 1.4rem;
 }
+.anim-round {
+  animation: round 5s ease-in-out 0s infinite;
+}
+@keyframes round {
+  25% {
+    transform: rotate(15deg);
+  }
+
+  75% {
+    transform: rotate(-15deg);
+  }
+}
 @media screen and (max-width: 1498px) {
   .role {
     max-width: 85%;

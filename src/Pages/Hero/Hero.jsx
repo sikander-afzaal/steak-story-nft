@@ -27,10 +27,14 @@ function Hero() {
         </div>
         <Fade delay={1000} bottom big>
           <img src={img} alt="..." />
-          <div className="social-div">
+          {/* <div className="social-div">
             <FontAwesomeIcon icon={faTwitter} />
             <FontAwesomeIcon icon={faInstagram} />
             <FontAwesomeIcon icon={faDiscord} />
+          </div> */}
+          <div className="hero-bot">
+            <button className="mint">Mint</button>
+            <h2>Mint Date: TBA</h2>
           </div>
         </Fade>
       </div>

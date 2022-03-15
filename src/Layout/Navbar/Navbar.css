@@ -82,8 +82,11 @@
   width: 18px;
   height: 18px;
 }
-
-@media (max-width: 1062px) {
+.icon-head {
+  color: #d9c58a !important;
+  background-color: white !important;
+}
+@media (max-width: 1124px) {
   /* .h_logo {
     width: 65px;
   } */

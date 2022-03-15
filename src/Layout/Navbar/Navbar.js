@@ -4,7 +4,12 @@ import Logo from "../../Components/Logo/Logo.js";
 import "./Navbar.css";
 import hamburger from "../../Assets/hamburger.png";
 import crossIcon from "../../Assets/cross-icon.png";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faDiscord,
+  faInstagram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 function Navbar() {
   const [scrolled, setScrolled] = React.useState(false);
   const [show, setShow] = React.useState(false);
@@ -102,9 +107,10 @@ function Navbar() {
                 FAQ
               </a>
             </div>
-            <a href="#" className="nav-btn teko">
-              Join Our Discord
-            </a>
+            <div className="social-div">
+              <FontAwesomeIcon className="icon-head" icon={faTwitter} />
+              <FontAwesomeIcon className="icon-head" icon={faDiscord} />
+            </div>
           </div>
         </div>
       </div>

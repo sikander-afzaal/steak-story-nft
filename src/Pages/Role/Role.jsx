@@ -65,7 +65,7 @@ function Role() {
           style={{ pointerEvents: "none", cursor: "default" }}
           src={title}
           alt=""
-          className="role-img"
+          className="role-img anim-round"
         />
         <img
           onClick={() => {
