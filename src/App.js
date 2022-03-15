@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <img src={img} className="line-img" alt="" />
+      <div className="line-img"></div>
       <Story />
       <Role />
       <Utility />

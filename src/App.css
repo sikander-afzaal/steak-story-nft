@@ -9,5 +9,7 @@ body {
 }
 .line-img {
   max-width: 100%;
-  object-fit: contain;
+  width: 100%;
+  height: 20px;
+  background-color: #4b2f00;
 }

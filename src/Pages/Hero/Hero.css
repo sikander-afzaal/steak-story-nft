@@ -93,12 +93,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
+  flex-direction: column;
 }
 .mint {
   padding: 10px 45px;
   color: white;
-  background-color: #d9c58a;
+  background-color: #e35211;
   border: 2px solid #4b2f00;
   font-size: 1.6rem;
   border-radius: 15px;
