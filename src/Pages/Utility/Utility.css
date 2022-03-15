@@ -1,60 +1,129 @@
+.util-cont {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../Assets/Role/background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: -4px;
+}
 .util {
   width: 100%;
   min-height: 70vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1700px;
+  height: auto;
+  position: relative;
+}
+.util-img {
+  max-width: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.card {
+  position: absolute;
+  display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  max-width: 950px;
-  gap: 4rem;
-  height: auto;
-}
-.util h1 {
-  font-size: 3rem;
-}
-.cards-div {
-  width: 100%;
-  display: grid;
-  gap: 5rem;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-.card {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: white;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
   gap: 20px;
-  height: auto;
-  border-radius: 25px;
-  padding: 20px;
+  height: max-content;
+  text-align: left;
 }
 .card .story-div {
   list-style-position: inside;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
 }
 .card h2 {
-  text-decoration: underline;
   font-size: 1.6rem;
+  color: #b04335;
 }
-@media screen and (max-width: 950px) {
-  .cards-div {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    gap: 1.5rem;
-  }
-  .util {
-    max-width: 95%;
+.card .story-div li {
+  font-size: 1.2rem;
+}
+.card1 {
+  left: 5%;
+  top: 7%;
+}
+.card2 {
+  left: 63%;
+  top: 7%;
+}
+.card3 {
+  left: 3%;
+  top: 42%;
+}
+.card4 {
+  left: 71%;
+  top: 44%;
+}
+.card5 {
+  top: 77%;
+  left: 12%;
+}
+.card6 {
+  top: 77%;
+  left: 62%;
+}
+@media screen and (max-width: 1540px) {
+  .card1 {
+    left: 2%;
   }
 }
-@media screen and (max-width: 536px) {
-  .util h1 {
-    font-size: 2.5rem;
+@media screen and (max-width: 1430px) {
+  .card1 {
+    left: 5%;
+    width: 500px;
+    top: 2%;
+  }
+  .card2 {
+    top: 2%;
   }
 }
-@media screen and (max-width: 444px) {
-  .util h1 {
-    font-size: 2.1rem;
+@media screen and (max-width: 1380px) {
+  .card3 {
+    left: 1%;
+  }
+  .card5 {
+    left: 8%;
+  }
+}
+@media screen and (max-width: 1336px) {
+  .card .story-div li {
+    font-size: 1.1rem;
+  }
+  .card h2 {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 1224px) {
+  .util-cont {
+    padding: 2rem 0rem;
+  }
+  .card1 {
+    top: -1%;
+  }
+  .card2 {
+    top: -1%;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .card {
+    max-width: 500px;
+  }
+  .card .story-div li {
+    font-size: 1rem;
+  }
+  .card h2 {
+    font-size: 1.2rem;
   }
 }
