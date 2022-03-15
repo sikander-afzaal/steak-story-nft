@@ -91,9 +91,23 @@
     display: block;
     cursor: pointer;
   }
-
+  .navbar {
+    justify-content: flex-end;
+  }
+  .navbar-wrapper {
+    height: 111px;
+  }
+  .container-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
   .navbar-left {
-    margin-right: 10px;
+    margin: 0;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
   }
 
   .navbar-right {

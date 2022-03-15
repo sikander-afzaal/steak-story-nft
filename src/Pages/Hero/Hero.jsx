@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import img from "../../Assets/steak.png";
+import img from "../../Assets/hero.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Fade from "react-reveal/Fade";
 import {
