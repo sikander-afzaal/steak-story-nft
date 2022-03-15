@@ -13,7 +13,7 @@
   margin: 0 auto;
 }
 .h_logo {
-  width: 85px;
+  width: 240px;
 }
 
 .navbar-wrapper.scrolled {
@@ -84,9 +84,9 @@
 }
 
 @media (max-width: 1062px) {
-  .h_logo {
+  /* .h_logo {
     width: 65px;
-  }
+  } */
   .hamburger {
     display: block;
     cursor: pointer;

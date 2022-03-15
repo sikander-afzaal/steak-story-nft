@@ -1,6 +1,6 @@
 .hero {
-  margin-top: 124px;
-  min-height: calc(100vh - 124px);
+  margin-top: 111px;
+  min-height: calc(100vh - 111px);
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -89,8 +89,8 @@
 }
 @media screen and (max-width: 1062px) {
   .hero {
-    min-height: calc(100vh - 103px);
-    margin-top: 103px;
+    min-height: calc(100vh - 111px);
+    margin-top: 111px;
   }
 }
 @media screen and (max-width: 966px) {
