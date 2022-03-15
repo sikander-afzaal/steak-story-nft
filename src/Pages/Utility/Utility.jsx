@@ -8,9 +8,7 @@ function Utility() {
       <div className="util">
         <img src={img} alt="" className="util-img" />
         <div className="card card1">
-          <h2 className="sub">
-            Foodie, Chill Out Manager, Star, Celeb Head Chef
-          </h2>
+          <h2 className="sub">Foodie, Chef, Star, Celeb Chef</h2>
           <ul className="story-div">
             <li>Collect $WAGYU & exchange it for your Steaks House.</li>
             <li>Use $WAGYU to decorate your Steak House.</li>
@@ -32,9 +30,12 @@ function Utility() {
         </div>
         <img src={mobImg} alt="" className="mobile-circle" />
         <div className="card card4">
-          <h2 className="sub">$WAGYU Merch</h2>
+          <h2 className="sub">MEAT Cook Book</h2>
           <ul className="story-div">
-            <li>$WAGYU to be used within merch store.</li>
+            <li>
+              Access to exclusive MEAT Cook Book with recipes from around the
+              world
+            </li>
           </ul>
         </div>
 
