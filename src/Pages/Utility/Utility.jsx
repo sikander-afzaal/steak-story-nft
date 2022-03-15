@@ -1,6 +1,7 @@
 import React from "react";
 import "./Utility.css";
 import img from "../../Assets/util.png";
+import mobImg from "../../Assets/Role/Rolessolo.png";
 function Utility() {
   return (
     <div id="util" className="util-cont">
@@ -29,6 +30,7 @@ function Utility() {
             <li>Discounts at selected Steaks Houses</li>
           </ul>
         </div>
+        <img src={mobImg} alt="" className="mobile-circle" />
         <div className="card card4">
           <h2 className="sub">$WAGYU Merch</h2>
           <ul className="story-div">

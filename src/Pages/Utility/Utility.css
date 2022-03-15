@@ -74,6 +74,9 @@
   top: 77%;
   left: 62%;
 }
+.mobile-circle {
+  display: none;
+}
 @media screen and (max-width: 1540px) {
   .card1 {
     left: 2%;
@@ -125,5 +128,69 @@
   }
   .card h2 {
     font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .mobile-circle {
+    max-width: 200px;
+    object-fit: contain;
+    display: block;
+    grid-column: 2/3;
+    grid-row: 1/4;
+  }
+  .util-img {
+    display: none;
+  }
+  .card {
+    position: static;
+    max-width: max-content;
+  }
+  .util {
+    padding: 0rem 2rem;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .card1,
+  .card3,
+  .card5 {
+    width: auto;
+    grid-column: 1/2;
+  }
+  .card2,
+  .card4,
+  .card6 {
+    grid-column: 3/4;
+  }
+  .card .story-div li {
+    font-size: 1.1rem;
+  }
+  .card h2 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 860px) {
+  .util {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .util-cont {
+    padding: 3rem 0rem;
+  }
+  .mobile-circle {
+    max-width: 350px;
+  }
+  .card .story-div li {
+    font-size: 1.25rem;
+  }
+  .card {
+    text-align: center;
+  }
+  .card h2 {
+    font-size: 1.45rem;
   }
 }
