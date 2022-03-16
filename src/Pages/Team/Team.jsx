@@ -8,7 +8,7 @@ import head from "../../Assets/Team/team-head.png";
 import headMob from "../../Assets/Team/team-head-mob.png";
 function Team() {
   return (
-    <div className="team-cont">
+    <div id="team" className="team-cont">
       {window.innerWidth <= 864 ? (
         <img src={headMob} className="team-head" alt="" />
       ) : (

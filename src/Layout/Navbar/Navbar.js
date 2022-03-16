@@ -91,7 +91,7 @@ function Navbar() {
                 Roadmap
               </a>
               <a
-                href="#faq"
+                href="#team"
                 offset={-100}
                 className="nav-link montserrat"
                 onClick={() => setShow(false)}
