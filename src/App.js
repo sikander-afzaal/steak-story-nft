@@ -4,7 +4,7 @@ import Hero from "./Pages/Hero/Hero";
 import Story from "./Pages/Story/Story";
 import Utility from "./Pages/Utility/Utility";
 import Role from "./Pages/Role/Role";
-import img from "./Assets/line.png";
+import Team from "./Pages/Team/Team";
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
       <Story />
       <Role />
       <Utility />
+      <Team />
     </div>
   );
 }
