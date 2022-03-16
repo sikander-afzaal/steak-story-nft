@@ -14,17 +14,19 @@
 .team {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   width: 100%;
   max-width: 1800px;
   position: relative;
   z-index: 3;
+  padding: 0rem 2rem;
 }
 .team-head {
   position: absolute;
   width: 100%;
-  max-width: 65%;
-  bottom: 13%;
+  max-width: 100%;
+  bottom: 50%;
+  transform: translateY(50%);
   z-index: 0;
 }
 .team-img {
@@ -38,37 +40,40 @@
   justify-self: flex-start;
 }
 .team-img3 {
-  justify-self: center;
+  justify-self: flex-start;
 }
 .team-img4 {
-  justify-self: center;
+  justify-self: flex-end;
+}
+.team-img5 {
+  justify-self: flex-end;
+}
+.team-img6 {
+  justify-self: flex-start;
 }
 @media screen and (max-width: 1618px) {
   .team-head {
-    max-width: 57%;
-    bottom: 20%;
+    max-width: 84%;
   }
 }
 @media screen and (max-width: 1425px) {
-  .team-head {
-    max-width: 66%;
-    bottom: 20%;
-  }
   .team-img {
     max-width: 50%;
+  }
+  .team-head {
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 854px) {
   .team-head {
     max-width: 70%;
     position: static;
+    transform: none;
   }
-  .team-cont {
-    gap: 2rem;
-  }
+
   .team {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
   }
   .team-img {
@@ -85,5 +90,8 @@
 
   .team-img {
     max-width: 90%;
+  }
+  .team-cont {
+    gap: 2rem;
   }
 }

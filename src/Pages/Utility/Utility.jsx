@@ -1,16 +1,12 @@
 import React from "react";
 import "./Utility.css";
 import img from "../../Assets/util.png";
-import mobImg from "../../Assets/util-mob.png";
+import mobImg from "../../Assets/Role/Rolessolo.png";
 function Utility() {
   return (
     <div id="util" className="util-cont">
       <div className="util">
-        {window.innerWidth <= 1100 ? (
-          <img src={mobImg} className="util-img" alt="" />
-        ) : (
-          <img src={img} alt="" className="util-img" />
-        )}
+        <img src={img} alt="" className="util-img" />
 
         <div className="card card1">
           <h2 className="sub">Foodie, Chef, Star, Celeb Chef</h2>
@@ -33,6 +29,7 @@ function Utility() {
             <li>Discounts at selected Steaks Houses</li>
           </ul>
         </div>
+        <img src={mobImg} className="mobile-circle" alt="" />
         <div className="card card4">
           <h2 className="sub">MEAT Cook Book</h2>
           <ul className="story-div">

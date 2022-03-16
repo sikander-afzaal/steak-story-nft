@@ -20,6 +20,8 @@ function Team() {
         <img src={teamImg3} alt="" className="team-img team-img2" />
         <img src={teamImg2} alt="" className="team-img team-img3" />
         <img src={teamImg4} alt="" className="team-img team-img4" />
+        <img src={teamImg4} alt="" className="team-img team-img5" />
+        <img src={teamImg4} alt="" className="team-img team-img6" />
       </div>
     </div>
   );
