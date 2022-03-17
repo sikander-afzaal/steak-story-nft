@@ -11,19 +11,51 @@ import headMob from "../../Assets/Team/team-head-mob.png";
 function Team() {
   return (
     <div id="team" className="team-cont">
-      {window.innerWidth <= 864 ? (
-        <img src={headMob} className="team-head" alt="" />
-      ) : (
-        <img src={head} className="team-head" alt="" />
-      )}
-
+      <img src={head} className="team-head desk" alt="" />
+      <img src={headMob} className="team-head mob" alt="" />
       <div className="team">
-        <img src={teamImg1} alt="" className="team-img team-img1" />
-        <img src={teamImg3} alt="" className="team-img team-img2" />
-        <img src={teamImg2} alt="" className="team-img team-img3" />
-        <img src={teamImg4} alt="" className="team-img team-img4" />
-        <img src={teamImg5} alt="" className="team-img team-img5" />
-        <img src={teamImg6} alt="" className="team-img team-img6" />
+        <a
+          href="https://twitter.com/bymarebuzolic"
+          target={"blank"}
+          className="team-img1"
+        >
+          <img src={teamImg1} alt="" className="team-img" />
+        </a>
+        <a
+          href="https://twitter.com/@nighthawk69"
+          target={"blank"}
+          className="team-img2"
+        >
+          <img src={teamImg3} alt="" className="team-img" />
+        </a>
+        <a
+          href="https://twitter.com/@fajripersiano"
+          target={"blank"}
+          className="team-img3"
+        >
+          <img src={teamImg2} alt="" className="team-img" />
+        </a>
+        <a
+          href="https://twitter.com/@willowcatstudios.sol"
+          target={"blank"}
+          className="team-img4"
+        >
+          <img src={teamImg4} alt="" className="team-img" />
+        </a>
+        <a
+          href="https://twitter.com/@daniel68161002"
+          target={"blank"}
+          className="team-img5"
+        >
+          <img src={teamImg5} alt="" className="team-img" />
+        </a>
+        <a
+          href="https://twitter.com/@NasiruS66111359"
+          target={"blank"}
+          className="team-img6"
+        >
+          <img src={teamImg6} alt="" className="team-img" />
+        </a>
       </div>
     </div>
   );

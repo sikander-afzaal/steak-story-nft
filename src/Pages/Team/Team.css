@@ -51,13 +51,19 @@
 .team-img6 {
   justify-self: flex-start;
 }
+.mob {
+  display: none;
+}
+.desk {
+  display: block;
+}
 @media screen and (max-width: 1618px) {
   .team-head {
     max-width: 84%;
   }
 }
 @media screen and (max-width: 1425px) {
-  .team-img {
+  .team a {
     max-width: 50%;
   }
   .team-head {
@@ -66,32 +72,39 @@
 }
 @media screen and (max-width: 854px) {
   .team-head {
-    max-width: 70%;
+    max-width: 100%;
     position: static;
     transform: none;
   }
-
+  .mob {
+    display: block;
+  }
+  .desk {
+    display: none;
+  }
   .team {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 20px;
   }
-  .team-img {
+  .team a {
     justify-self: center;
   }
-  .team-img {
-    max-width: 80%;
+  .team a {
+    max-width: 90%;
+  }
+  .team-cont {
+    gap: 3rem;
   }
 }
 @media screen and (max-width: 450px) {
   .team-head {
     max-width: 100%;
   }
-
-  .team-img {
-    max-width: 90%;
-  }
   .team-cont {
     gap: 2rem;
+  }
+  .team a {
+    max-width: 100%;
   }
 }
