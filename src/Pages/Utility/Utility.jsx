@@ -1,7 +1,8 @@
 import React from "react";
 import "./Utility.css";
 import img from "../../Assets/util.png";
-import mobImg from "../../Assets/Role/Rolessolo.png";
+import line from "../../Assets/utility line.png";
+import mobImg from "../../Assets/util-mob.png";
 function Utility() {
   return (
     <div id="util" className="util-cont">
@@ -15,6 +16,7 @@ function Utility() {
             <li>Use $WAGYU to decorate your Steak House.</li>
           </ul>
         </div>
+        <img src={line} alt="" className="line-util" />
         <div className="card card2">
           <h2 className="sub">Rancher</h2>
           <ul className="story-div">
@@ -22,6 +24,7 @@ function Utility() {
             <li>Use $WAGYU to decorate your Farm.</li>
           </ul>
         </div>
+        <img src={line} alt="" className="line-util" />
         <div className="card card3">
           <h2 className="sub">IRL Utility</h2>
           <ul className="story-div">
@@ -39,14 +42,14 @@ function Utility() {
             </li>
           </ul>
         </div>
-
+        <img src={line} alt="" className="line-util" />
         <div className="card card5">
           <h2 className="sub">Future $WAGYU mints</h2>
           <ul className="story-div">
             <li>Use $WAGYU for future mints and auctions.</li>
           </ul>
         </div>
-
+        <img src={line} alt="" className="line-util" />
         <div className="card card6">
           <h2 className="sub">$WAGYU Whitelists & Raffles</h2>
           <ul className="story-div">
