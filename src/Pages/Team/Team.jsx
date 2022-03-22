@@ -36,7 +36,7 @@ function Team() {
           <img src={teamImg2} alt="" className="team-img" />
         </a>
         <a
-          href="https://twitter.com/@willowcatstudios.sol"
+          href="https://twitter.com/@Willowcatstudio"
           target={"blank"}
           className="team-img4"
         >

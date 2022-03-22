@@ -108,8 +108,12 @@ function Navbar() {
               </a>
             </div>
             <div className="social-div">
-              <FontAwesomeIcon className="icon-head" icon={faTwitter} />
-              <FontAwesomeIcon className="icon-head" icon={faDiscord} />
+              <a href="https://twitter.com/solsteaks" target={"_blank"}>
+                <FontAwesomeIcon className="icon-head" icon={faTwitter} />
+              </a>
+              <a href="#" target={"_blank"}>
+                <FontAwesomeIcon className="icon-head" icon={faDiscord} />
+              </a>
             </div>
           </div>
         </div>

@@ -48,7 +48,7 @@
   color: #b04335;
 }
 .card .story-div li {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
 }
 .card1 {
   left: 5%;
@@ -124,17 +124,7 @@
     top: -1%;
   }
 }
-@media screen and (max-width: 1190px) {
-  .card {
-    max-width: 500px;
-  }
-  .card .story-div li {
-    font-size: 1rem;
-  }
-  .card h2 {
-    font-size: 1.2rem;
-  }
-}
+
 @media screen and (max-width: 1100px) {
   .mobile-circle {
     max-width: 200px;
@@ -178,7 +168,7 @@
     font-size: 1.3rem;
   }
 }
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1100px) {
   .util {
     display: flex;
     justify-content: center;
@@ -200,5 +190,10 @@
   }
   .card h2 {
     font-size: 1.45rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .mobile-circle {
+    max-width: 60%;
   }
 }
