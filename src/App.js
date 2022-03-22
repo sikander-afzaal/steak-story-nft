@@ -5,6 +5,7 @@ import Story from "./Pages/Story/Story";
 import Utility from "./Pages/Utility/Utility";
 import Role from "./Pages/Role/Role";
 import Team from "./Pages/Team/Team";
+import Roadmap from "./Pages/Roadmap/Roadmap";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Role />
       <Utility />
       <Team />
+      <Roadmap />
     </div>
   );
 }

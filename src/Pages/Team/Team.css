@@ -97,7 +97,7 @@
     gap: 3rem;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .team-head {
     max-width: 100%;
   }
@@ -106,5 +106,9 @@
   }
   .team a {
     max-width: 100%;
+  }
+  .team {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 }

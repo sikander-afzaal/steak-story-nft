@@ -32,7 +32,7 @@ function Utility() {
             <li>Discounts at selected Steaks Houses</li>
           </ul>
         </div>
-        <img src={mobImg} className="mobile-circle" alt="" />
+        <img src={mobImg} className="mobile-circle anim-round" alt="" />
         <div className="card card4">
           <h2 className="sub">MEAT Cook Book</h2>
           <ul className="story-div">
