@@ -2,9 +2,7 @@ import React from "react";
 import "./Team.css";
 import teamImg1 from "../../Assets/Team/team (1).png";
 import teamImg2 from "../../Assets/Team/team (2).png";
-import teamImg3 from "../../Assets/Team/team (3).png";
 import teamImg4 from "../../Assets/Team/team (4).png";
-import teamImg5 from "../../Assets/Team/team (5).png";
 import teamImg6 from "../../Assets/Team/team (6).png";
 import head from "../../Assets/Team/team-head.png";
 import headMob from "../../Assets/Team/team-head-mob.png";
@@ -21,38 +19,30 @@ function Team() {
         >
           <img src={teamImg1} alt="" className="team-img" />
         </a>
-        <a
-          href="https://twitter.com/@nighthawk69"
-          target={"blank"}
-          className="team-img2"
-        >
-          <img src={teamImg3} alt="" className="team-img" />
-        </a>
+
         <a
           href="https://twitter.com/@fajripersiano"
           target={"blank"}
-          className="team-img3"
-        >
-          <img src={teamImg2} alt="" className="team-img" />
-        </a>
-        <a
-          href="https://twitter.com/@Willowcatstudio"
-          target={"blank"}
-          className="team-img4"
+          className="team-img2"
         >
           <img src={teamImg4} alt="" className="team-img" />
         </a>
+        <h2 className="abs-h2">
+          Click on the roles <br /> to go to their twitter account
+        </h2>
         <a
-          href="https://twitter.com/@daniel68161002"
+          href="https://twitter.com/@Willowcatstudio"
           target={"blank"}
-          className="team-img5"
+          className="team-img3"
         >
-          <img src={teamImg5} alt="" className="team-img" />
+          {" "}
+          <img src={teamImg2} alt="" className="team-img" />
         </a>
+
         <a
           href="https://twitter.com/@NasiruS66111359"
           target={"blank"}
-          className="team-img6"
+          className="team-img4"
         >
           <img src={teamImg6} alt="" className="team-img" />
         </a>
