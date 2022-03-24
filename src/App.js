@@ -15,8 +15,8 @@ function App() {
       <Story />
       <Role />
       <Utility />
-      <Team />
       <Roadmap />
+      <Team />
     </div>
   );
 }

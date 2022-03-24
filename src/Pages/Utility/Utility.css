@@ -106,9 +106,9 @@
   }
 }
 @media screen and (max-width: 1336px) {
-  .card .story-div li {
+  /* .card .story-div li {
     font-size: 1.1rem;
-  }
+  } */
   .card h2 {
     font-size: 1.4rem;
   }
@@ -161,9 +161,9 @@
   .card6 {
     grid-column: 3/4;
   }
-  .card .story-div li {
+  /* .card .story-div li {
     font-size: 1.1rem;
-  }
+  } */
   .card h2 {
     font-size: 1.3rem;
   }
@@ -182,9 +182,9 @@
   .mobile-circle {
     max-width: 350px;
   }
-  .card .story-div li {
+  /* .card .story-div li {
     font-size: 1.25rem;
-  }
+  } */
   .card {
     text-align: center;
   }
