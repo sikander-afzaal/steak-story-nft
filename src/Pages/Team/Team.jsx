@@ -21,7 +21,7 @@ function Team() {
         </a>
 
         <a
-          href="https://twitter.com/@fajripersiano"
+          href="https://twitter.com/@Willowcatstudio"
           target={"blank"}
           className="team-img2"
         >
@@ -31,7 +31,7 @@ function Team() {
           Click on the roles <br /> to go to their twitter account
         </h2>
         <a
-          href="https://twitter.com/@Willowcatstudio"
+          href="https://twitter.com/@fajripersiano"
           target={"blank"}
           className="team-img3"
         >

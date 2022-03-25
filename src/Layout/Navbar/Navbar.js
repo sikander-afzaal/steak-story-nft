@@ -83,7 +83,7 @@ function Navbar() {
                 Utility
               </a>
               <a
-                href="#faq"
+                href="#roadmap"
                 offset={-100}
                 className="nav-link montserrat"
                 onClick={() => setShow(false)}

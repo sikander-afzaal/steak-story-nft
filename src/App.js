@@ -6,6 +6,7 @@ import Utility from "./Pages/Utility/Utility";
 import Role from "./Pages/Role/Role";
 import Team from "./Pages/Team/Team";
 import Roadmap from "./Pages/Roadmap/Roadmap";
+import Faq from "./Pages/Faq/Faq";
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,9 @@ function App() {
       <Role />
       <Utility />
       <Roadmap />
+      <div className="line-img"></div>
       <Team />
+      <Faq />
     </div>
   );
 }

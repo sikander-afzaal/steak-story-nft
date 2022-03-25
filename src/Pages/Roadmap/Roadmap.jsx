@@ -7,7 +7,7 @@ import line1 from "../../Assets/Roadmap/rm-line1.png";
 import line2 from "../../Assets/Roadmap/rm-line2.png";
 function Roadmap() {
   return (
-    <div className="roadmap-cont">
+    <div id="roadmap" className="roadmap-cont">
       <div className="roadmap">
         <img src={steak} alt="" className="steak" />
         <img className="heading" src={head} alt="" />

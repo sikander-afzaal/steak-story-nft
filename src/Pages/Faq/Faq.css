@@ -1,0 +1,120 @@
+.faq-cont {
+  background-image: url("../../Assets/bg-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  text-align: center;
+  padding: 2rem 0rem;
+  gap: 2rem;
+  max-width: 950px;
+  height: auto;
+}
+.faq .heading {
+  max-width: 100%;
+  object-fit: contain;
+}
+.desc-faq {
+  font-size: 1.2rem;
+  margin-left: 3.5rem;
+}
+.faq-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  flex-direction: column;
+}
+.faq-q-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+.faq-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0rem;
+  border-top: 15px;
+  cursor: pointer;
+  color: black;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+}
+.faq-btn p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  pointer-events: none;
+  text-align: left;
+}
+.faq-btn svg {
+  font-size: 1.5rem;
+  pointer-events: none;
+}
+.faq-answer {
+  transition: all 0.3s ease-in-out;
+  max-height: 0px;
+  overflow-y: hidden;
+  color: black;
+  border-radius: 7px;
+  width: 100%;
+}
+.answer {
+  font-size: 1.2rem;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.answer img {
+  width: 1.1rem;
+  object-fit: contain;
+}
+.active {
+  padding: 1.5rem 0rem;
+  max-height: 800px;
+  overflow-y: visible;
+}
+.mobile-head {
+  display: none;
+  max-width: 100%;
+  object-fit: contain;
+}
+.faq .heading {
+  display: block;
+}
+@media screen and (max-width: 950px) {
+  .faq {
+    width: 100%;
+    max-width: 100%;
+    padding: 2rem 2rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .mobile-head {
+    display: block;
+  }
+  .faq .heading {
+    display: none;
+  }
+  .faq-btn p {
+    font-size: 1.1rem;
+  }
+  .answer {
+    font-size: 1rem;
+  }
+}
