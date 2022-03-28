@@ -6,8 +6,8 @@ import {
   faMinusSquare,
 } from "@fortawesome/free-regular-svg-icons";
 import star from "../../Assets/star-solid.png";
-import head from "../../Assets/headings/faq-head.png";
-import headMob from "../../Assets/headings/faq-head-mob.png";
+import head from "../../Assets/headings/faq-center.png";
+import headMob from "../../Assets/headings/faq-center-mob.png";
 function Faq() {
   // if you want to add more questions just add another false here or vice versa
   const [open, setOpen] = useState([false, false, false, false]);
