@@ -19,6 +19,7 @@ function App() {
       <Roadmap />
       <div className="line-img"></div>
       <Team />
+      <div className="line-img"></div>
       <Faq />
     </div>
   );
