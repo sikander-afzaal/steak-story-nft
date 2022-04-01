@@ -23,7 +23,7 @@
   gap: 3rem;
 }
 .roadmap .heading {
-  max-width: 50%;
+  max-width: 100%;
 }
 .roadmap-div {
   width: 1256px;
@@ -353,7 +353,7 @@ top: -116%;
 }
 @media screen and (max-width: 959px) {
   .roadmap .heading {
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 800px) {
