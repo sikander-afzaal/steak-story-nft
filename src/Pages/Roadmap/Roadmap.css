@@ -34,11 +34,7 @@
   position: relative;
   z-index: 2;
 }
-@media screen and (min-width:1800px) {
-  .roadmap-div{
-    width: 70%;
-  }
-}
+
 .circle-road {
   max-width: 300px;
   object-fit: contain;
@@ -132,30 +128,32 @@
   grid-column: 3/4;
   grid-row: 3/4;
 }
-
+.circle-road-div5::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    background-color: #a6510e;
+    z-index: 3;
+    right: 0;
+    height: 425px;
+    border-radius: 25px;
+    left: 98%;
+    transform: rotate(25deg);
+    top: -122%;
+}
 .circle-road-div6 {
   grid-column: 4/5;
   grid-row: 1/2;
+  margin-left: 2rem;
 }
 
 
 .circle-road-div7 {
   grid-column: 4/5;
   grid-row: 3/4;
+  margin-left: 2rem;
 }
-.circle-road-div7::before {
-content: "";
-position: absolute;
-width: 8px;
-background-color: #a6510e;
-z-index: 3;
-right: 0;
-height: 410px;
-border-radius: 25px;
-left: -4%;
-transform: rotate(-25deg);
-top: -116%;
-}
+
 
 .steak {
   position: absolute;
