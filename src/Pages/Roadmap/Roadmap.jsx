@@ -1,10 +1,8 @@
 import React from "react";
 import "./Roadmap.css";
 import circle from "../../Assets/Roadmap/RMcircle.png";
-import steak from "../../Assets/Roadmap/RMsteak.png";
+import steak from "../../Assets/Roadmap/RM-steak.png";
 import head from "../../Assets/Roadmap/rm-header.png";
-import line1 from "../../Assets/Roadmap/rm-line1.png";
-import line2 from "../../Assets/Roadmap/rm-line2.png";
 function Roadmap() {
   return (
     <div id="roadmap" className="roadmap-cont">
