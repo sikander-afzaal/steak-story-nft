@@ -25,12 +25,13 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  font-size: 1.1rem;
   text-align: center;
   transform: translate(-50%, 50%);
 }
 .team-head {
   width: 100%;
-  max-width: 100%;
+  max-width: 70%;
   z-index: 0;
 }
 .team-img {
