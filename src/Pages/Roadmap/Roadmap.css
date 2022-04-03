@@ -22,9 +22,6 @@
   z-index: 10;
   gap: 3rem;
 }
-.roadmap .heading {
-  max-width: 70%;
-}
 .roadmap-div {
   width: 1256px;
   display: grid;

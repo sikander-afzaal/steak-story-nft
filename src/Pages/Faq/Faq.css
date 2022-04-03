@@ -16,7 +16,7 @@
   text-align: center;
   padding: 2rem 0rem;
   gap: 2rem;
-  max-width: 1050px;
+  max-width: 900px;
   height: auto;
 }
 .faq .heading {
@@ -101,15 +101,15 @@
   .faq {
     width: 100%;
     max-width: 100%;
-    padding: 2rem 2rem;
+  }
+  .faq-div{
+    padding: 0rem 2rem;
   }
 }
 @media screen and (max-width: 650px) {
-  .mobile-head {
-    display: block;
-  }
+
   .faq .heading {
-    display: none;
+    display: block;
   }
   .faq-btn p {
     font-size: 1.1rem;

@@ -30,7 +30,6 @@
   transform: translate(-50%, 50%);
 }
 .team-head {
-  width: 100%;
   max-width: 70%;
   z-index: 0;
 }

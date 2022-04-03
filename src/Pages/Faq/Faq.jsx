@@ -7,7 +7,6 @@ import {
 } from "@fortawesome/free-regular-svg-icons";
 import star from "../../Assets/star-solid.png";
 import head from "../../Assets/headings/faq-center.png";
-import headMob from "../../Assets/headings/faq-center-mob.png";
 function Faq() {
   // if you want to add more questions just add another false here or vice versa
   const [open, setOpen] = useState([false, false, false, false]);
@@ -31,7 +30,6 @@ function Faq() {
     <div className="faq-cont">
       <div id="faq" className="faq">
         <img src={head} alt="" className="heading" />
-        <img src={headMob} alt="" className="mobile-head" />
         <div className="faq-div">
           <div className="faq-q-div">
             <div
