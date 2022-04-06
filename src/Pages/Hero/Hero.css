@@ -153,6 +153,7 @@
     max-width: 100%;
     width: 90%;
     border-radius: 0%;
+    object-fit: none;
   }
 }
 @media screen and (max-width: 420px) {
