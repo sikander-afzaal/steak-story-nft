@@ -14,22 +14,25 @@ function Roadmap() {
             <div className="wrapper-img">
               <img src={circle} alt="" className="circle-road road1" />
               <p className="abs-text-road">
-                Art creation | Building a true foodie community | Brand building
+                Pre-Mint - Art creation | Community Building | Brand Awareness
               </p>
             </div>
           </div>
           <div className="circle-road-div2">
             <div className="wrapper-img">
               <img src={circle} alt="" className="circle-road road2" />
-              <p className="abs-text-road">SolSteaks mint day 🥩</p>
+              <p className="abs-text-road">
+                10% sold - SolSteaks House DAO | Onboarding Community & IRL
+                businesses
+              </p>
             </div>
           </div>
           <div className="circle-road-div3">
             <div className="wrapper-img">
               <img src={circle} alt="" className="circle-road road3" />
               <p className="abs-text-road">
-                Staking with 5 roles | Steak & collect $WAGYU | Interesting role
-                based tokenomics{" "}
+                20% sold - Staking with 5 roles | Steak & collect $WAGYU |
+                Interesting role based tokenomics with a twist
               </p>
             </div>
           </div>
@@ -37,8 +40,8 @@ function Roadmap() {
             <div className="wrapper-img">
               <img src={circle} alt="" className="circle-road road4" />
               <p className="abs-text-road">
-                Exchange $WAGYU for Steaks House NFT or Rancher NFT depending on
-                your role | Risk factor involved
+                35% sold - Publish Community Cook Book with recipes around the
+                World | 50% of sales profit going to SolSteaks House DAO
               </p>
             </div>
           </div>
@@ -46,7 +49,9 @@ function Roadmap() {
             <div className="wrapper-img">
               <img src={circle} alt="" className="circle-road road5" />
               <p className="abs-text-road">
-                Exclusive IRL events | Discounts in selected Steaks Houses
+                {" "}
+                50% sold - Launch of cool SolSteaks cookin’ merch | Community
+                Design Competition
               </p>
             </div>
           </div>
@@ -54,7 +59,8 @@ function Roadmap() {
             <div className="wrapper-img">
               <img src={circle} alt="" className="circle-road road6" />
               <p className="abs-text-road">
-                Community Cook Book with recipes around the World{" "}
+                75% sold - Donating 5% to charity to feed homeless | We care &
+                make difference
               </p>
             </div>
           </div>
@@ -62,7 +68,8 @@ function Roadmap() {
             <div className="wrapper-img">
               <img src={circle} alt="" className="circle-road road7" />
               <p className="abs-text-road">
-                Launch of SolSteaks merch | SolSteaks food products
+                100% sold - Solana Summer BBQ for the community | Exclusive
+                community IRL meet
               </p>
             </div>
           </div>

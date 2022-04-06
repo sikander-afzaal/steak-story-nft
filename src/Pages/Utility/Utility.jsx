@@ -12,16 +12,14 @@ function Utility() {
         <div className="card card1">
           <h2 className="sub">Foodie, Chef, Star, Celeb Chef</h2>
           <ul className="story-div">
-            <li>Collect $WAGYU & exchange it for your Steaks House.</li>
-            <li>Use $WAGYU to decorate your Steak House.</li>
+            <li>Collect $WAGYU & exchange it for your Steaks House NFT.</li>
           </ul>
         </div>
         <img src={line} alt="" className="line-util" />
         <div className="card card2">
           <h2 className="sub">Rancher</h2>
           <ul className="story-div">
-            <li>Collect $WAGYU & exchange it for your Farm.</li>
-            <li>Use $WAGYU to decorate your Farm.</li>
+            <li>Collect $WAGYU & exchange it for your Farm NFT.</li>
           </ul>
         </div>
         <img src={line} alt="" className="line-util" />
@@ -29,7 +27,9 @@ function Utility() {
           <h2 className="sub">IRL Utility</h2>
           <ul className="story-div">
             <li>$WAGYU as only ticket to IRL events.</li>
-            <li>Discounts at selected Steaks Houses</li>
+            <li>
+              long-term: Discounts at selected steaks houses (long-term plan)
+            </li>
           </ul>
         </div>
         <img src={mobImg} className="mobile-circle anim-round" alt="" />
@@ -37,8 +37,8 @@ function Utility() {
           <h2 className="sub">MEAT Cook Book</h2>
           <ul className="story-div">
             <li>
-              Access to exclusive MEAT Cook Book with recipes from around the
-              world
+              Change to Access to Community Cook Book. 50% of profit going back
+              to SolSteaks House DAO.
             </li>
           </ul>
         </div>
