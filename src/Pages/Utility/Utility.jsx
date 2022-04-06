@@ -36,7 +36,9 @@ function Utility() {
           <h2 className="sub">IRL Utility</h2>
           <ul className="story-div">
             <li>$WAGYU as only ticket to IRL events.</li>
-            <li>Discounts at selected steaks houses (long-term plan)</li>
+            <li>
+              Discounts at selected steaks houses <br /> (long-term plan)
+            </li>
           </ul>
         </div>
         <img src={mobImg} className="mobile-circle anim-round" alt="" />
