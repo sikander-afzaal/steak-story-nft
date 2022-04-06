@@ -12,14 +12,23 @@ function Utility() {
         <div className="card card1">
           <h2 className="sub">Foodie, Chef, Star, Celeb Chef</h2>
           <ul className="story-div">
-            <li>Collect $WAGYU & exchange it for your Steaks House NFT.</li>
+            <li>
+              {" "}
+              Collect $WAGYU & exchange it for your Steaks House NFT. Risk
+              factor involved. 60% chance to get Steaks House NFT, 10% chance
+              that your Steaks House NFT is on 🔥!
+            </li>
           </ul>
         </div>
         <img src={line} alt="" className="line-util" />
         <div className="card card2">
           <h2 className="sub">Rancher</h2>
           <ul className="story-div">
-            <li>Collect $WAGYU & exchange it for your Farm NFT.</li>
+            <li>
+              Collect $WAGYU & exchange it for your Farm NFT. Risk factor
+              involved. 67% chance to get Farm NFT, 13% chance that your Farm
+              NFT is on 🔥
+            </li>
           </ul>
         </div>
         <img src={line} alt="" className="line-util" />
@@ -35,8 +44,8 @@ function Utility() {
           <h2 className="sub">MEAT Cook Book</h2>
           <ul className="story-div">
             <li>
-              Be part and get access to Access to Community Cook Book. 50% of
-              profit going back to SolSteaks House DAO.
+              Be part and get access to Community Cook Book. 50% of profit going
+              back to SolSteaks House DAO.
             </li>
           </ul>
         </div>
