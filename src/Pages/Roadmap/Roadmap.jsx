@@ -41,7 +41,7 @@ function Roadmap() {
               <img src={circle} alt="" className="circle-road road4" />
               <p className="abs-text-road">
                 35% sold - Publish Community Cook Book with recipes around the
-                World | 50% of sales profit going to SolSteaks House DAO
+                World | 50% of profit going to SolSteaks House DAO
               </p>
             </div>
           </div>
@@ -69,7 +69,7 @@ function Roadmap() {
               <img src={circle} alt="" className="circle-road road7" />
               <p className="abs-text-road">
                 100% sold - Solana Summer BBQ for the community | Exclusive
-                community IRL meet
+                community IRL meet up
               </p>
             </div>
           </div>
