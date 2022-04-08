@@ -19,7 +19,7 @@ function Hero() {
       <div className="center-hero">
         <div className="hero-head">
           <Fade duration={1000} top big cascade>
-            3,333 gamified unique SolSteaks
+            1269 gamified unique SolSteaks
           </Fade>
           <Fade top big cascade>
             for true foodies
