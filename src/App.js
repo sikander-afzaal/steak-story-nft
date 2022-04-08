@@ -14,13 +14,15 @@ function App() {
       <Hero />
       <div className="line-img"></div>
       <Story />
+      <div className="line-img"></div>
       <Role />
+      <div style={{ marginBottom: "4px" }} className="line-img"></div>
       <Utility />
       <div className="line-img"></div>
       <Roadmap />
-      <div className="line-img orange"></div>
+      <div className="line-img"></div>
       <Team />
-      <div className="line-img orange"></div>
+      <div className="line-img"></div>
       <Faq />
       <div className="line-img"></div>
     </div>
