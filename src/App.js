@@ -16,11 +16,13 @@ function App() {
       <Story />
       <Role />
       <Utility />
+      <div className="line-img"></div>
       <Roadmap />
-      <div className="line-img"></div>
+      <div className="line-img orange"></div>
       <Team />
-      <div className="line-img"></div>
+      <div className="line-img orange"></div>
       <Faq />
+      <div className="line-img"></div>
     </div>
   );
 }
