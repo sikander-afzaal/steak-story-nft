@@ -21,9 +21,9 @@ function Story() {
             </li>
             <li>
               With a collection of{" "}
-              <strong>3,333 gamified unique SolSteaks NFTs</strong> with a
-              unique vintage-style art, there is something here for everyone who
-              has ever ordered it rare - and liked it.
+              <strong>1269 gamified unique SolSteaks NFTs</strong> with a unique
+              vintage-style art, there is something here for everyone who has
+              ever ordered it rare - and liked it.
             </li>
             <li>
               SolSteaks owners enjoy all the good things in life like a decent
