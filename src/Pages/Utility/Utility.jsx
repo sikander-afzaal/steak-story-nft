@@ -16,7 +16,7 @@ function Utility() {
               {" "}
               Collect $WAGYU & exchange it for your Steaks House NFT. Risk
               factor involved. 60% chance to get Steaks House NFT, 10% chance
-              that your Steaks House NFT is on 🔥!
+              that your Steaks House NFT is on 🔥
             </li>
           </ul>
         </div>
