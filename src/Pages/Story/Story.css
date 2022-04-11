@@ -50,6 +50,9 @@
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
+.story-div a {
+  align-self: center;
+}
 .load {
   align-self: center;
   /* font-size: 2rem; */
@@ -58,6 +61,8 @@
   width: 30px;
   height: 30px;
   padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
   border-radius: 50%;
 }
 @media screen and (max-width: 972px) {

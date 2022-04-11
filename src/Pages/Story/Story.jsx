@@ -86,11 +86,14 @@ function Story() {
                   space, we can even open a cafe IRL or create a cooking P2E
                   game in the long run - the sky is the limit! Delicious 😋
                 </li>
-                <FontAwesomeIcon
-                  onClick={() => setLoad(false)}
-                  className="load"
-                  icon={faChevronUp}
-                />
+                <a href="#story">
+                  {" "}
+                  <FontAwesomeIcon
+                    onClick={() => setLoad(false)}
+                    className="load"
+                    icon={faChevronUp}
+                  />
+                </a>
               </>
             ) : (
               <FontAwesomeIcon
