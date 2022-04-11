@@ -33,7 +33,11 @@
   flex-direction: column;
   list-style-image: url("../../Assets/star-solid.png");
   /* list-style: #980000; */
-  gap: 15px;
+  gap: 35px;
+}
+.story-div li {
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 .story-div li::marker {
   color: red;

@@ -43,10 +43,41 @@ function Story() {
               it brings!
             </li>
             <li>
-              Owners of SolSteaks NFT will also enjoy{" "}
-              <strong>in-real life benefits;</strong> as discounts at selected
-              SolSteaks Houses, and exclusive access to in-real life SolSteaks
-              meetups.
+              Owners of SolSteaks NFT will form{" "}
+              <strong>SolSteaks House DAO</strong>; a community of hungry
+              foodies where everyone is equal. 1x🥩 = 1x🥩
+            </li>
+            <li>
+              Our goal is to establish a food brand, starting with the
+              <strong>Community Cook Book</strong> and super *cool cooking
+              merch*. We are a team of very passionate about food! What could be
+              next, SolSteaks rubs or chocolates? 🥩👨‍🍳
+            </li>
+            <li>
+              The second goal of SolSteaks House DAO will be to{" "}
+              <strong>support new artists & community members</strong>{" "}
+              throughout their NFT journey. It will include Alpha tips and
+              support with marketing, development & community building. As we
+              grow, we will employ talented individuals from the community &
+              help them to develop into real blockchain professionals. 🥩 🤝 🥩
+            </li>
+            <li>
+              SolSteaks want to do good in this world & we will{" "}
+              <strong>donate 5% to a charity</strong> feeding the homeless. 🥩 ❤
+            </li>
+            <li>
+              We want our community to meet IRL, and upon selling out, we will
+              organise <strong>Solana Summer BBQ</strong> and discover who is a
+              real foodie. 🥩🥂🎉🥩 IRL
+            </li>
+            <li>
+              Join us on this incredible journey of bringing together the
+              community around food, fun & fantastic vintage art.
+            </li>
+            <li>
+              It is only the beginning! We will be bringing more art to the
+              space, we can even open a cafe IRL or create a cooking P2E game in
+              the long run - the sky is the limit! Delicious 😋
             </li>
           </ul>
         </div>
