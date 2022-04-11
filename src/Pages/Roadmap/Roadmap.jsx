@@ -22,8 +22,7 @@ function Roadmap() {
             <div className="wrapper-img">
               <img src={circle} alt="" className="circle-road road2" />
               <p className="abs-text-road">
-                10% sold - SolSteaks House DAO | Onboarding Community & IRL
-                businesses
+                20% sold - SolSteaks House DAO | Onboarding Community & Artists
               </p>
             </div>
           </div>
@@ -31,7 +30,7 @@ function Roadmap() {
             <div className="wrapper-img">
               <img src={circle} alt="" className="circle-road road3" />
               <p className="abs-text-road">
-                20% sold - Staking with 5 roles | Steak & collect $WAGYU |
+                40% sold - Staking with 5 roles | Stake & collect $WAGYU |
                 Interesting role based tokenomics with a twist
               </p>
             </div>
@@ -40,8 +39,9 @@ function Roadmap() {
             <div className="wrapper-img">
               <img src={circle} alt="" className="circle-road road4" />
               <p className="abs-text-road">
-                35% sold - Publish Community Cook Book with recipes around the
-                World | 50% of profit going to SolSteaks House DAO
+                50% sold - Start publishing Community Cook Book with recipes
+                around the World | 50% of Book sales profit going to SolSteaks
+                House DAO
               </p>
             </div>
           </div>
@@ -49,8 +49,7 @@ function Roadmap() {
             <div className="wrapper-img">
               <img src={circle} alt="" className="circle-road road5" />
               <p className="abs-text-road">
-                {" "}
-                50% sold - Launch of cool SolSteaks cookin’ merch | Community
+                60% sold - Launch of cool SolSteaks cookin’ merch | Community
                 Design Competition
               </p>
             </div>
@@ -59,7 +58,7 @@ function Roadmap() {
             <div className="wrapper-img">
               <img src={circle} alt="" className="circle-road road6" />
               <p className="abs-text-road">
-                75% sold - Donating 5% to charity to feed homeless | We care &
+                80% sold - Donating 5% to charity to feed homeless | We care &
                 make difference
               </p>
             </div>
@@ -69,7 +68,7 @@ function Roadmap() {
               <img src={circle} alt="" className="circle-road road7" />
               <p className="abs-text-road">
                 100% sold - Solana Summer BBQ for the community | Exclusive
-                community IRL meet up
+                community IRL meet up | Support IRL businesses
               </p>
             </div>
           </div>
