@@ -50,6 +50,16 @@
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
+.load {
+  align-self: center;
+  /* font-size: 2rem; */
+  background-color: #a14200;
+  color: white;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 50%;
+}
 @media screen and (max-width: 972px) {
   .story {
     max-width: 95%;
