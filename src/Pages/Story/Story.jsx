@@ -86,14 +86,19 @@ function Story() {
                   space, we can even open a cafe IRL or create a cooking P2E
                   game in the long run - the sky is the limit! Delicious 😋
                 </li>
-                <a href="#story">
-                  {" "}
-                  <FontAwesomeIcon
-                    onClick={() => setLoad(false)}
-                    className="load"
-                    icon={faChevronUp}
-                  />
-                </a>
+
+                <FontAwesomeIcon
+                  onClick={() => {
+                    setLoad(false);
+                    const story = document
+                      .querySelector("#story")
+                      .getClientRects();
+                    window.scroll(0, -story[0].top);
+                    console.log(story[0].top);
+                  }}
+                  className="load"
+                  icon={faChevronUp}
+                />
               </>
             ) : (
               <FontAwesomeIcon
