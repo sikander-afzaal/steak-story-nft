@@ -13,6 +13,13 @@ function Team() {
       <img src={headMob} className="team-head mob" alt="" />
       <div className="team">
         <a
+          href="https://twitter.com/@NasiruS66111359"
+          target={"blank"}
+          className="team-img5"
+        >
+          <img src={teamImg6} alt="" className="team-img" />
+        </a>
+        <a
           href="https://twitter.com/bymarebuzolic"
           target={"blank"}
           className="team-img1"
