@@ -19,72 +19,39 @@ function Story() {
 
           <ul className="story-div">
             <li>
-              Coming to you from the depths of Solana is a whole new world
-              invented for <strong>all steak lovers - SolSteaks!</strong>
+              Welcome to the chilled & vintage SolSteaks House!🏡 Where family
+              of 1,269 cheeky 🥩 are making chaos.😈
             </li>
             <li>
-              With a collection of{" "}
-              <strong>1269 gamified unique SolSteaks NFTs</strong> with a unique
-              vintage-style art, there is something here for everyone who has
-              ever ordered it rare - and liked it.
+              Fatty T-Bone 🥩 is super proud of his king size.😋 While Skinny
+              Vegan Burger 🌱doesn’t care about french fries. 🍟
             </li>
             <li>
-              SolSteaks owners enjoy all the good things in life like a decent
-              meat cut and a self-generating income - steak dribbles - and this
-              has inspired us to create a SolSteaks brand{" "}
-              <strong>
-                bringing together a global community of like-minded all foodies
-                and tokenomics lovers.
-              </strong>
+              Miss File Mignon 🥰 is super witty.🤓 Today she looks amazingly
+              pretty.🎀
             </li>
             <li>
-              Each NFT will give you one of the{" "}
-              <strong>
-                essential roles within the SolSteaks House ecosystem.
-              </strong>{" "}
-              The more rare your role is, the more <strong>$WAGYU</strong> daily
-              it brings!
+              She has specially dressed up to rock 😈 the handsome Boss Golden
+              Tomahawk.😎
             </li>
             <li>
-              Owners of SolSteaks NFT will form{" "}
-              <strong>SolSteaks House DAO</strong>; a community of hungry
-              foodies where everyone is equal. 1x🥩 = 1x🥩
+              It is just another day in da good chilled SolSteaks House.🏡 Where
+              family of rebellious 🥩 are making chaos.😈
             </li>
             {load ? (
               <>
                 <li>
-                  Our goal is to establish a food brand, starting with the
-                  <strong>Community Cook Book</strong> and super *cool cooking
-                  merch*. We are a team of very passionate about food! What
-                  could be next, SolSteaks rubs or chocolates? 🥩👨‍🍳
+                  Everyone loves to chill & hang out here.🏡 Snoop Dog & Martha
+                  Stewart pop by for a beer.🍻
                 </li>
                 <li>
-                  The second goal of SolSteaks House DAO will be to{" "}
-                  <strong>support new artists & community members</strong>{" "}
-                  throughout their NFT journey. It will include Alpha tips and
-                  support with marketing, development & community building. As
-                  we grow, we will employ talented individuals from the
-                  community & help them to develop into real blockchain
-                  professionals. 🥩 🤝 🥩
+                  Join us on this amazing journey our friends.🕺💃🏻 Let’s create
+                  & have fun together until the ends.🍔🎉🥩
                 </li>
+
                 <li>
-                  SolSteaks want to do good in this world & we will{" "}
-                  <strong>donate 5% to a charity</strong> feeding the homeless.
-                  🥩 ❤
-                </li>
-                <li>
-                  We want our community to meet IRL, and upon selling out, we
-                  will organise <strong>Solana Summer BBQ</strong> and discover
-                  who is a real foodie. 🥩🥂🎉🥩 IRL
-                </li>
-                <li>
-                  Join us on this incredible journey of bringing together the
-                  community around food, fun & fantastic vintage art.
-                </li>
-                <li>
-                  It is only the beginning! We will be bringing more art to the
-                  space, we can even open a cafe IRL or create a cooking P2E
-                  game in the long run - the sky is the limit! Delicious 😋
+                  It’s a SolSteaks House your home online.😊 Your place to play,
+                  learn, cook & dine.❤️🔥😋
                 </li>
 
                 <FontAwesomeIcon
