@@ -35,7 +35,7 @@
   margin-bottom: 3rem;
 }
 .team-img {
-  max-width: 100%;
+  max-width: 385px;
   object-fit: contain;
 }
 .team-img1 {
@@ -81,7 +81,10 @@
 
 @media screen and (max-width: 1514px) {
   .team a {
-    max-width: 275px;
+    max-width: 375px;
+  }
+  .team-img {
+    max-width: 100%;
   }
   .team-head {
     max-width: 100%;
@@ -143,7 +146,7 @@
   .team a {
     justify-self: center;
     align-self: center;
-    max-width: 100%;
+    max-width: 375px;
   }
 
   .team-cont {
