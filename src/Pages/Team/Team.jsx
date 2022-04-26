@@ -5,6 +5,7 @@ import teamImg2 from "../../Assets/Team/team (2).png";
 import teamImg4 from "../../Assets/Team/team (4).png";
 import teamImg6 from "../../Assets/Team/team (6).png";
 import teamImg3 from "../../Assets/Team/team (3).png";
+import teamImg7 from "../../Assets/Team/team (7).png";
 import head from "../../Assets/Team/team-head.png";
 import headMob from "../../Assets/Team/team-head-mob.png";
 function Team() {
@@ -20,6 +21,14 @@ function Team() {
         >
           {" "}
           <img src={teamImg1} alt="" className="team-img" />
+        </a>
+        <a
+          href="https://twitter.com/bymarebuzolic"
+          target={"blank"}
+          className="team-img6"
+        >
+          {" "}
+          <img src={teamImg7} alt="" className="team-img" />
         </a>
         <a
           href="https://twitter.com/@NasiruS66111359"
