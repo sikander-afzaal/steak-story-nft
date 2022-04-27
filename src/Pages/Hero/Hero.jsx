@@ -33,8 +33,13 @@ function Hero() {
             <FontAwesomeIcon icon={faDiscord} />
           </div> */}
           <div className="hero-bot">
-            <button className="mint">Mint</button>
-            <h2>Mint Date: TBA</h2>
+            {/* <button className="mint">Mint</button>
+            <h2>Mint Date: TBA</h2> */}
+            <p className="hero-desc">
+              Stake your rebellious Steak 🥩😈 & become one of key members of
+              SolSteaks House 🏡 with tokenised rewards. Building a true foodie
+              community & brand on Solana! 😎 WAGSI! We all gonna STEAK IT!🥩
+            </p>
           </div>
         </Fade>
       </div>

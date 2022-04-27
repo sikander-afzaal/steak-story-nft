@@ -43,7 +43,7 @@ function Utility() {
         </div>
         <img src={mobImg} className="mobile-circle anim-round" alt="" />
         <div className="card card4">
-          <h2 className="sub">MEAT Cook Book</h2>
+          <h2 className="sub">Degen Diner cook book</h2>
           <ul className="story-div">
             <li>
               Be part and get access to Community Cook Book. 50% of profit going
