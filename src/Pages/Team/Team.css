@@ -13,12 +13,14 @@
 }
 .team {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   width: 100%;
   max-width: 1800px;
   padding: 0rem 2rem;
   position: relative;
+  row-gap: 2rem;
+  column-gap: 1rem;
 }
 .abs-h2 {
   grid-column: 1/4;
@@ -30,6 +32,9 @@
 .team a {
   align-self: center;
   justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   pointer-events: none;
 }
 .team-head {
@@ -38,7 +43,7 @@
   margin-bottom: 3rem;
 }
 .team-img {
-  max-width: 385px;
+  max-width: 320px;
   object-fit: contain;
   pointer-events: none;
 }
@@ -49,7 +54,7 @@
 .desk {
   display: block;
 }
-@media screen and (max-width: 1238px) {
+@media screen and (max-width: 1374px) {
   .team a {
     display: flex;
     justify-content: center;
@@ -59,12 +64,17 @@
     max-width: 90%;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 840px) {
   .mob {
     display: block;
   }
   .desk {
     display: none;
+  }
+  .team {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+    grid-auto-rows: auto;
   }
   .team-head {
     max-width: 100%;
@@ -75,10 +85,5 @@
     font-size: 0.8rem;
     margin: 0.5rem 0rem;
     display: none;
-  }
-  .team {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: none;
-    grid-auto-rows: auto;
   }
 }
