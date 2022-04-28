@@ -7,6 +7,7 @@ import teamImg6 from "../../Assets/Team/team (6).png";
 import teamImg3 from "../../Assets/Team/team (3).png";
 import teamImg7 from "../../Assets/Team/team (7).png";
 import teamImg8 from "../../Assets/Team/team (8).png";
+import teamImg9 from "../../Assets/Team/team (9).png";
 import head from "../../Assets/Team/team-head.png";
 import headMob from "../../Assets/Team/team-head-mob.png";
 function Team() {
@@ -44,7 +45,7 @@ function Team() {
           <img src={teamImg8} alt="" className="team-img" />
         </a>
         <a href="#" className="team-img4">
-          <img src={teamImg6} alt="" className="team-img" />
+          <img src={teamImg9} alt="" className="team-img" />
         </a>
       </div>
     </div>
