@@ -27,7 +27,7 @@ function Story() {
               Vegan Burger 🌱doesn’t care about french fries. 🍟
             </li>
             <li>
-              Miss File Mignon 🥰 is super witty.🤓 Today she looks amazingly
+              Miss Filet Mignon 🥰 is super witty.🤓 Today she looks amazingly
               pretty.🎀
             </li>
             <li>
