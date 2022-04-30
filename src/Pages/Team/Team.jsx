@@ -38,7 +38,7 @@ function Team() {
           <img src={teamImg4} alt="" className="team-img" />
         </a>
         <h2 className="abs-h2">
-          Click on the roles <br /> to go to their twitter account
+          click on the roles <br /> to go to their Twitter accounts
         </h2>
         <a
           target={"blank"}

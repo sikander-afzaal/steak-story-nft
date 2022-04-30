@@ -48,9 +48,7 @@
   font-size: 1.6rem;
   color: #b04335;
 }
-.card .story-div li {
-  /* font-size: 1.2rem; */
-}
+
 .card1 {
   left: 5%;
   top: 7%;
@@ -83,6 +81,9 @@
 .mobile-circle {
   display: none;
 }
+.card .story-div li {
+  font-size: 1rem;
+}
 @media screen and (max-width: 1540px) {
   .card1 {
     left: 2%;
@@ -98,7 +99,10 @@
     top: 2%;
   }
 }
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1300px) {
+  .card1 {
+    left: 0;
+  }
   .card3 {
     left: 1%;
   }

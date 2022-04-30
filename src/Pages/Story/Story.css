@@ -32,12 +32,12 @@
   align-items: flex-start;
   flex-direction: column;
   list-style-image: url("../../Assets/star-solid.png");
-  /* list-style: #980000; */
   gap: 35px;
 }
 .story-div li {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   line-height: 1.6;
+  text-align: center;
 }
 .story-div li::marker {
   color: red;

@@ -25,7 +25,7 @@
 .abs-h2 {
   grid-column: 1/5;
   grid-row: 2/3;
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin: 2rem 0rem;
   text-align: center;
 }

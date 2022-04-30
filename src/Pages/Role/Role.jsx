@@ -59,13 +59,13 @@ function Role() {
           }}
           src={star}
           alt=""
-          className="role-img"
+          className="role-img role1"
         />
         <img
           style={{ pointerEvents: "none", cursor: "default" }}
           src={title}
           alt=""
-          className="role-img anim-round"
+          className="role-img anim-round role-circle"
         />
         <img
           onClick={() => {
@@ -77,7 +77,7 @@ function Role() {
           }}
           src={chef}
           alt=""
-          className="role-img"
+          className="role-img role2"
         />
         <h1 className="role-h1">Click on Role to find out more</h1>
         <img
@@ -90,7 +90,7 @@ function Role() {
           }}
           src={manager}
           alt=""
-          className="role-img"
+          className="role-img role3"
         />
         <img
           onClick={() => {
@@ -102,7 +102,7 @@ function Role() {
           }}
           src={rancher}
           alt=""
-          className="role-img"
+          className="role-img role4"
         />
         <img
           onClick={() => {
@@ -116,7 +116,7 @@ function Role() {
           }}
           src={foodie}
           alt=""
-          className="role-img"
+          className="role-img role5"
         />
       </div>
     </div>
