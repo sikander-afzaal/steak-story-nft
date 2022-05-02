@@ -5,11 +5,7 @@ import "./Navbar.css";
 import hamburger from "../../Assets/hamburger.png";
 import crossIcon from "../../Assets/cross-icon.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faDiscord,
-  faInstagram,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
 function Navbar() {
   const [scrolled, setScrolled] = React.useState(false);
   const [show, setShow] = React.useState(false);
@@ -35,7 +31,7 @@ function Navbar() {
       <div className="container-wrapper">
         <div className="navbar">
           <div className="navbar-left">
-            <a href="#">
+            <a href="#home">
               <Logo />
             </a>
           </div>
@@ -108,10 +104,10 @@ function Navbar() {
               </a>
             </div>
             <div className="social-div">
-              <a href="https://twitter.com/solsteaks" target={"_blank"}>
+              <a href="https://twitter.com/solsteaks" target={"blank"}>
                 <FontAwesomeIcon className="icon-head" icon={faTwitter} />
               </a>
-              <a href="https://discord.gg/hgw7vHWQym" target={"_blank"}>
+              <a href="https://discord.gg/hgw7vHWQym" target={"blank"}>
                 <FontAwesomeIcon className="icon-head" icon={faDiscord} />
               </a>
             </div>

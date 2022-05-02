@@ -1,13 +1,8 @@
 import React from "react";
 import "./Hero.css";
 import img from "../../Assets/hero.jpeg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Fade from "react-reveal/Fade";
-import {
-  faDiscord,
-  faInstagram,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+
 function Hero() {
   return (
     <div id="home" className="hero">
@@ -27,14 +22,8 @@ function Hero() {
         </div>
         <Fade delay={1000} bottom big>
           <img src={img} alt="..." />
-          {/* <div className="social-div">
-            <FontAwesomeIcon icon={faTwitter} />
-            <FontAwesomeIcon icon={faInstagram} />
-            <FontAwesomeIcon icon={faDiscord} />
-          </div> */}
+
           <div className="hero-bot">
-            {/* <button className="mint">Mint</button>
-            <h2>Mint Date: TBA</h2> */}
             <p className="hero-desc">
               Stake your rebellious Steak 🥩😈 & become one of key members of
               SolSteaks House 🏡 with tokenised rewards. Building a true foodie
