@@ -111,6 +111,9 @@ function Navbar() {
               <a href="https://twitter.com/solsteaks" target={"_blank"}>
                 <FontAwesomeIcon className="icon-head" icon={faTwitter} />
               </a>
+              <a href="https://discord.gg/hgw7vHWQym" target={"_blank"}>
+                <FontAwesomeIcon className="icon-head" icon={faDiscord} />
+              </a>
             </div>
           </div>
         </div>

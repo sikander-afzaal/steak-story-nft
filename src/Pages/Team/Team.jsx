@@ -23,7 +23,11 @@ function Team() {
         >
           <img src={teamImg1} alt="" className="team-img" />
         </a>
-        <a target={"blank"} href="#team" className="team-img6">
+        <a
+          target={"blank"}
+          href="https://instagram.com/ht_society?igshid=YmMyMTA2M2Y="
+          className="team-img6"
+        >
           <img src={teamImg7} alt="" className="team-img" />
         </a>
         <a target={"blank"} href="#team" className="team-img1">
@@ -38,7 +42,7 @@ function Team() {
           <img src={teamImg4} alt="" className="team-img" />
         </a>
         <h2 className="abs-h2">
-          click on the roles <br /> to go to their Twitter accounts
+          Click on the roles <br /> to go to their Twitter accounts
         </h2>
         <a
           target={"blank"}
@@ -65,7 +69,7 @@ function Team() {
         </a>
         <a
           target={"blank"}
-          href="https://twitter.com/@nighthawk69"
+          href="https://twitter.com/@_nighthawk69_"
           className="team-img4"
         >
           <img src={teamImg9} alt="" className="team-img" />
